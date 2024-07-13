@@ -6,3 +6,7 @@ This project aims to transform non-realistic, cartoonish images into more realis
 
 ## Dataset Exploration
 The dataset consists of cartoonish drawings of people (grayscale) and real photos of people (RGB). Both image types are sized 200x250.
+
+
+Dataset Preprocessing
+Images are preprocessed to normalize pixel values and resize to a consistent shape. Data augmentation techniques are applied to increase the diversity of the training.
